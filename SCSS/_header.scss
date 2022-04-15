@@ -1,0 +1,31 @@
+
+.logo-container{
+    height: 200px;
+}
+
+nav{
+    background-color: #4C9DC8 !important;
+    height: 58px !important;
+
+    .navbar-menu{
+    
+        background-color: #4C9DC8 ;
+
+        a{
+            text-align: center;
+            color:#FFFFFF !important;
+            font-family: 'Montserrat', sans-serif ;
+            font-size: 1rem;
+     
+            &:hover{
+                background-color: #4C9DC8 !important;
+                color:#3D3D3D !important;
+            }
+
+            @media screen and (min-width:1024px) {
+                height: 22px;
+            }
+        }
+    }
+}
+

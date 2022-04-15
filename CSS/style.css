@@ -1,10 +1,31 @@
-p {
-  color: red;
-  background-color: black;
+.logo-container {
+  height: 200px;
 }
 
-p {
-  color: green;
-  background-color: blue;
+nav {
+  background-color: #4C9DC8 !important;
+  height: 58px !important;
+}
+
+nav .navbar-menu {
+  background-color: #4C9DC8;
+}
+
+nav .navbar-menu a {
+  text-align: center;
+  color: #FFFFFF !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+nav .navbar-menu a:hover {
+  background-color: #4C9DC8 !important;
+  color: #3D3D3D !important;
+}
+
+@media screen and (min-width: 1024px) {
+  nav .navbar-menu a {
+    height: 22px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.homebanner-container {
+  margin: 44px 0 43px 0;
+}
+
 header .images-container {
   height: 223px;
 }

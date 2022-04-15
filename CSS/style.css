@@ -1,31 +1,114 @@
-.logo-container {
-  height: 200px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-nav {
+header .images-container {
+  height: 223px;
+}
+
+header .images-container .redes-container {
+  padding: 35px 107px 0 0;
+}
+
+header .images-container .redes-container a {
+  padding: 0 6px;
+}
+
+header .images-container .logo-container {
+  position: relative;
+  bottom: 4px;
+}
+
+header .images-container .logo-container .isologo {
+  height: 35.427%;
+}
+
+header nav {
   background-color: #4C9DC8 !important;
   height: 58px !important;
 }
 
-nav .navbar-menu {
+header nav .navbar-menu {
   background-color: #4C9DC8;
 }
 
-nav .navbar-menu a {
+header nav .navbar-menu a {
   text-align: center;
   color: #FFFFFF !important;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-nav .navbar-menu a:hover {
+header nav .navbar-menu a:hover {
   background-color: #4C9DC8 !important;
   color: #3D3D3D !important;
 }
 
 @media screen and (min-width: 1024px) {
-  nav .navbar-menu a {
+  header nav .navbar-menu a {
     height: 22px;
   }
+}
+
+footer {
+  background-color: #3D3D3D;
+  height: 297px;
+  margin-top: 159px;
+}
+
+footer .footer-data {
+  margin: 60px 0 0 181px;
+}
+
+footer .footer-data p {
+  height: 109px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #4C9DC8;
+}
+
+footer .footer-data p span {
+  color: #D9B31F;
+}
+
+footer .footer-data img {
+  margin-top: 18px;
+}
+
+footer .footer-menu {
+  margin: 51px 182px 0 0;
+}
+
+footer .footer-menu li {
+  height: 15px;
+}
+
+footer .footer-menu li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+footer .redes-container {
+  margin: 60px 181px 0 0;
+}
+
+footer .redes-container p {
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: italic;
+  padding-right: 11px;
+  line-height: 300%;
+}
+
+footer .redes-container a {
+  padding: 0 6px;
 }
 /*# sourceMappingURL=style.css.map */

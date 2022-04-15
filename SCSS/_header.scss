@@ -1,31 +1,52 @@
 
-.logo-container{
-    height: 200px;
-}
+header{
 
-nav{
-    background-color: #4C9DC8 !important;
-    height: 58px !important;
+    .images-container{
+        height: 223px;
 
-    .navbar-menu{
-    
-        background-color: #4C9DC8 ;
+        .redes-container{
+            padding: 35px 107px 0 0;
 
-        a{
-            text-align: center;
-            color:#FFFFFF !important;
-            font-family: 'Montserrat', sans-serif ;
-            font-size: 1rem;
-     
-            &:hover{
-                background-color: #4C9DC8 !important;
-                color:#3D3D3D !important;
+            a{
+                padding: 0 6px;
             }
+        }
+        .logo-container{
+            position: relative;
+            bottom: 4px;
 
-            @media screen and (min-width:1024px) {
-                height: 22px;
+            .isologo{
+                height: 35.427%;
+            }
+        }
+    }
+    
+    nav{
+        background-color: #4C9DC8 !important;
+        height: 58px !important;
+    
+        .navbar-menu{
+        
+            background-color: #4C9DC8 ;
+    
+            a{
+                text-align: center;
+                color:#FFFFFF !important;
+                font-family: 'Montserrat', sans-serif ;
+                font-weight: 700;
+                font-size: 18px;
+         
+                &:hover{
+                    background-color: #4C9DC8 !important;
+                    color:#3D3D3D !important;
+                }
+    
+                @media screen and (min-width:1024px) {
+                    height: 22px;
+                }
             }
         }
     }
 }
+
 

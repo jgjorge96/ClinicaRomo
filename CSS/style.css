@@ -232,4 +232,43 @@ input::placeholder, textarea::placeholder {
   color: #3D3D3D;
 }
 
+.turnoForm {
+  margin-top: 8.125rem;
+  display: flex;
+  height: 45rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.turnoForm input, select {
+  height: 3.5rem;
+  border: 2px solid #6B4F4F;
+  border-radius: 3.5px;
+}
+.turnoForm option {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  color: #4C9DC8;
+}
+.turnoForm textarea {
+  height: 9.5rem;
+  border: 2px solid #6B4F4F;
+  border-radius: 3.5px;
+}
+.turnoForm button {
+  width: 11.4375rem;
+  height: 2.25rem;
+  background-color: #D9B31F;
+  border-radius: 2px;
+  border-style: none;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #3D3D3D;
+}
+
+
 /*# sourceMappingURL=style.css.map */

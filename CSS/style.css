@@ -3,15 +3,38 @@
   padding: 0;
 }
 
-.homebanner-container {
-  margin: 44px 0 43px 0;
+.home-container .tratamientos-container {
+  margin: 0 177px 73px 177px;
 }
-.homebanner-productos {
-  margin-top: 2.75rem;
-  margin-bottom: 6.25rem;
+
+.home-container .tratamientos-container .tratamientos h2 {
+  color: #4C9DC8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 37px;
 }
-.homebanner-productos img {
-  width: 100%;
+
+.home-container .tratamientos-container .tratamientos p {
+  color: #000000CC;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  width: 328px;
+}
+
+.home-container .promociones-container h2 {
+  color: #4C9DC8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-container .mission-banner-container {
+  margin: 94px 0;
 }
 
 header .images-container {
@@ -63,10 +86,14 @@ header nav .navbar-menu a:hover {
   }
 }
 
+header .homebanner-container {
+  height: 519px;
+  margin: 44px 0 43px 0;
+}
+
 footer {
   background-color: #3D3D3D;
   height: 297px;
-  margin-top: 159px;
 }
 
 footer .footer-data {
@@ -123,6 +150,14 @@ footer .redes-container a {
   padding: 0 6px;
 }
 
+
+.homebanner-productos {
+  margin-top: 2.75rem;
+  margin-bottom: 6.25rem;
+}
+.homebanner-productos img {
+  width: 100%;
+}
 .productsData {
   margin-left: 10.25rem;
   margin-right: 10.25rem;
@@ -144,4 +179,5 @@ footer .redes-container a {
   margin-right: auto;
   margin-top: 10.375rem;
 }
+
 /*# sourceMappingURL=style.css.map */

@@ -6,6 +6,13 @@
 .homebanner-container {
   margin: 44px 0 43px 0;
 }
+.homebanner-productos {
+  margin-top: 2.75rem;
+  margin-bottom: 6.25rem;
+}
+.homebanner-productos img {
+  width: 100%;
+}
 
 header .images-container {
   height: 223px;
@@ -114,5 +121,27 @@ footer .redes-container p {
 
 footer .redes-container a {
   padding: 0 6px;
+}
+
+.productsData {
+  margin-left: 10.25rem;
+  margin-right: 10.25rem;
+  height: 84.4375rem;
+}
+.productsData h2 {
+  color: #4C9DC8;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  text-align: center;
+}
+.productsData img {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10.375rem;
 }
 /*# sourceMappingURL=style.css.map */

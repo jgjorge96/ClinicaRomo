@@ -87,8 +87,12 @@
                 <option value="Morfin">Dr. Martin Morfin</option>
                 <option value="Morales">Lic. Mercedes Jacome Morales</option>
             </select>
-            <input type="text" id="Fecha" placeholder="Fecha">
-            <input type="text" id="Horario" placeholder="Horario">
+            <input placeholder="Fecha" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="Fecha"/>
+            <select name="Horario" id="Horario">
+                <option value="" disabled selected>Horario</option>
+                <option value="m">Mañana</option>
+                <option value="t">Tarde</option>
+            </select>
             <textarea placeholder="Comentarios"></textarea>
             <button>ENVIAR</button>
         </form>

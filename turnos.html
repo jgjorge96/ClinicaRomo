@@ -74,40 +74,39 @@
     institución o necesitás ayuda, comunicate con nuestro centro de contacto al 2713168219 de lunes a viernes de 8:00 a 20:00 h.</h2>
 
     <form class="turnoForm">
+      <input type="text" id="nombre" placeholder="Nombre" required="">
+      <input type="email" id="email" placeholder="Email" required="">
+      <input type="number" id="telefono" placeholder="Telefono" required="">
 
-      <input type="text" id="Nombre" placeholder="Nombre">
-      <input type="email" id="email" placeholder="Email">
-      <input type="number" id="Telefono" placeholder="Telefono">
-
-      <select name="Tratamiento" id="Tratamiento">
-        <option value="" disabled selected>Tratamiento</option>
-        <option value="Peso">Control de Peso</option>
-        <option value="Facial">Tratamiento Facial</option>
-        <option value="Corporal">Tratamiento Corporal</option>
-        <option value="Belleza">Tratamiento de Belleza</option>
+      <select name="Tratamiento" id="tratamiento" required="">
+        <option disabled selected>Tratamiento</option>
+        <option>Control de Peso</option>
+        <option>Tratamiento Facial</option>
+        <option>Tratamiento Corporal</option>
+        <option>Tratamiento de Belleza</option>
       </select>
 
-      <select name="Profesional" id="Profesional">
-        <option value="" disabled selected>Profesional</option>
-        <option value="Rocha">Jesus Ismael Rocha Morales</option>
-        <option value="Morfin">Dr. Martin Morfin</option>
-        <option value="Morales">Lic. Mercedes Jacome Morales</option>
+      <select name="Profesional" id="profesional" required="">
+        <option disabled selected>Profesional</option>
+        <option>Jesus Ismael Rocha Morales</option>
+        <option>Dr. Martin Morfin</option>
+        <option>Lic. Mercedes Jacome Morales</option>
       </select>
 
-      <input placeholder="Fecha" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="Fecha"/>
-
-      <select name="Horario" id="Horario">
-        <option value="" disabled selected>Horario</option>
-        <option value="m">Mañana</option>
-        <option value="t">Tarde</option>
+      <input placeholder="Fecha" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="fecha" required=""/>
+      
+      <select name="Horario" id="horario" required="">
+        <option disabled selected>Horario</option>
+        <option>Mañana</option>
+        <option>Tarde</option>
       </select>
 
-      <textarea placeholder="Comentarios"></textarea>
+      <textarea placeholder="Comentarios" id="comentarios"></textarea>
+      <button value="Submit" onclick="gotowhatsapp()">ENVIAR</button>
 
-      <button>ENVIAR</button>
     </form>
-  </section>
-    
+
+  </section>    
 
   <!-- Footer -->
   <footer >
@@ -146,10 +145,8 @@
         </div>
       </div>
     </div>
-    
   </footer>
   
-
   <script src="index.js"></script>
 </body>
 </html>

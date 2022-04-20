@@ -190,6 +190,10 @@ footer .redes-container a {
   text-align: center;
 }
 
+.newsData h2 span {
+  color: #3D3D3D;
+}
+
 .newsData img {
   display: block;
   width: auto;
@@ -214,38 +218,6 @@ footer .redes-container a {
   text-align: center;
 }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-}
-
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-}
-
-input::-ms-input-placeholder, textarea::-ms-input-placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-}
-
-input::placeholder, textarea::placeholder {
-  color: #4B2F2F;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.5rem;
-}
-
 .turnoForm {
   margin-top: 8.125rem;
   display: -webkit-box;
@@ -261,13 +233,57 @@ input::placeholder, textarea::placeholder {
           justify-content: space-between;
 }
 
-.turnoForm input, .turnoForm select {
+.turnoForm input::-webkit-input-placeholder, .turnoForm textarea::-webkit-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.turnoForm input:-ms-input-placeholder, .turnoForm textarea:-ms-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.turnoForm input::-ms-input-placeholder, .turnoForm textarea::-ms-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.turnoForm input::placeholder, .turnoForm textarea::placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.turnoForm input {
   height: 3.5rem;
   border: 2px solid #6B4F4F;
   border-radius: 3.5px;
+  width: 1062px;
 }
 
-.turnoForm option {
+.turnoForm select {
+  height: 3.5rem;
+  border: 2px solid #6B4F4F;
+  border-radius: 3.5px;
+  width: 1062px;
+}
+
+.turnoForm select option {
   font-style: normal;
   font-weight: 400;
   font-size: 0.875rem;
@@ -279,6 +295,7 @@ input::placeholder, textarea::placeholder {
   height: 9.5rem;
   border: 2px solid #6B4F4F;
   border-radius: 3.5px;
+  width: 1062px;
 }
 
 .turnoForm button {
@@ -294,7 +311,23 @@ input::placeholder, textarea::placeholder {
   color: #3D3D3D;
 }
 
-.contactForm {
+.contactData {
+  margin-left: 10.25rem;
+  margin-right: 10.25rem;
+  height: 84.4375rem;
+}
+
+.contactData h2 {
+  color: #3D3D3D;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  text-align: center;
+}
+
+.contactData .contactForm {
   margin-top: 8.125rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -309,19 +342,57 @@ input::placeholder, textarea::placeholder {
           justify-content: space-between;
 }
 
-.contactForm input {
+.contactData .contactForm input {
   height: 3.5rem;
   border: 2px solid #6B4F4F;
   border-radius: 3.5px;
+  width: 1062px;
 }
 
-.contactForm textarea {
+.contactData .contactForm textarea {
   height: 9.5rem;
   border: 2px solid #6B4F4F;
   border-radius: 3.5px;
+  width: 1062px;
 }
 
-.contactForm button {
+.contactData .contactForm input::-webkit-input-placeholder, .contactData .contactForm textarea::-webkit-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.contactData .contactForm input:-ms-input-placeholder, .contactData .contactForm textarea:-ms-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.contactData .contactForm input::-ms-input-placeholder, .contactData .contactForm textarea::-ms-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.contactData .contactForm input::placeholder, .contactData .contactForm textarea::placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  padding: 16px;
+}
+
+.contactData .contactForm button {
   width: 11.4375rem;
   height: 2.25rem;
   background-color: #D9B31F;

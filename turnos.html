@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turnos</title>
+    <title>Contacto</title>
 
     <link rel="stylesheet" href="CSS/style.css">
 
@@ -17,67 +17,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header -->
+    <header>
+        <div class="images-container is-flex-direction-row ">
 
-  <!-- Header -->
-  <header>
-    <div class="images-container is-flex-direction-row ">
-
-    <!-- RRSS -->
-    <div class="redes-container is-flex is-justify-content-flex-end">
-        <a href=""><img src="Images/iconoface.png" alt="facebook"></a>
-        <a href=""><img src="Images/iconoinstagram.png" alt="instagram"></a>
-        <a href=""><img src="Images/iconowhatsapp.png" alt="whatsapp"></a>
-    </div>
-
-    <!-- Isologo -->
-    <div class="logo-container is-flex is-justify-content-center">
-        <img class="isologo" src="Images/isologotipocolor.png" alt="isologo">
-    </div>
-
-    </div>
-
-    <!-- Navbar -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-
-        <div class="navbar-brand">
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            </a>
+        <!-- RRSS -->
+        <div class="redes-container is-flex is-justify-content-flex-end">
+            <a href=""><img src="Images/iconoface.png" alt="facebook"></a>
+            <a href=""><img src="Images/iconoinstagram.png" alt="instagram"></a>
+            <a href=""><img src="Images/iconowhatsapp.png" alt="whatsapp"></a>
         </div>
-    
-        <div id="navbarBasicExample" class="navbar-menu is-align-items-center	is-justify-content-center">
-            <a class="navbar-item" href="index.html">HOME</a>
-            <a class="navbar-item" href="nosotros.html">NOSOTROS</a>
-            <a class="navbar-item" href="tratamientos.html">TRATAMIENTOS</a>
-            <a class="navbar-item" href="productos.html">PRODUCTOS</a>
-            <a class="navbar-item" href="novedades.html">NOVEDADES</a>
-            <a class="navbar-item" href="turnos.html">TURNOS</a>
-            <a class="navbar-item" href="contacto.html">CONTACTO</a>      
-          </div>
-    </nav>
 
-    <!-- Homebanner -->
-    <div class="homebanner-container">
-    <img src="images/bannerTurnos.png" alt="">
-    </div>
+        <!-- Isologo -->
+        <div class="logo-container is-flex is-justify-content-center">
+            <img class="isologo" src="Images/isologotipocolor.png" alt="isologo">
+        </div>
 
-  </header>
+        </div>
 
-  <section class="contactData">
-    <h2 style="color: #4C9DC8;">
-        Gestioná aquí tu turno para CONSULTAS PRESENCIALES o <br> bajo la nueva modalidad de TELEMEDICINA. 
-    </h2> <br><br>
+        <!-- Navbar -->
+        <nav class="navbar" role="navigation" aria-label="main navigation">
 
-    <h2>Si es tu primera consulta en nuestra <br>
-    institución o necesitás ayuda, comunicate con nuestro centro de contacto al 2713168219 de lunes a viernes de 8:00 a 20:00 h.</h2>
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                </a>
+            </div>
+        
+            <div id="navbarBasicExample" class="navbar-menu is-align-items-center	is-justify-content-center">
+                <a class="navbar-item" href="index.html">HOME</a>
+                <a class="navbar-item" href="nosotros.html">NOSOTROS</a>
+                <a class="navbar-item" href="tratamientos.html">TRATAMIENTOS</a>
+                <a class="navbar-item" href="productos.html">PRODUCTOS</a>
+                <a class="navbar-item" href="novedades.html">NOVEDADES</a>
+                <a class="navbar-item" href="turnos.html">TURNOS</a>
+                <a class="navbar-item" href="contacto.html">CONTACTO</a>      
+              </div>
+        </nav>
 
-    <form class="turnoForm">
+        <!-- Homebanner -->
+        <div class="homebanner-productos">
+        <img src="images/bannerTurnos.png" alt="">
+        </div>
 
-      <input type="text" id="Nombre" placeholder="Nombre">
-      <input type="email" id="email" placeholder="Email">
-      <input type="number" id="Telefono" placeholder="Telefono">
+    </header>
 
     <section class="contactData">
         <h2 style="color: #4C9DC8;">
@@ -114,29 +99,7 @@
         <script src="/turnos.js"></script>
     </section>
 
-      <select name="Profesional" id="Profesional">
-        <option value="" disabled selected>Profesional</option>
-        <option value="Rocha">Jesus Ismael Rocha Morales</option>
-        <option value="Morfin">Dr. Martin Morfin</option>
-        <option value="Morales">Lic. Mercedes Jacome Morales</option>
-      </select>
-
-      <input placeholder="Fecha" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="Fecha"/>
-
-      <select name="Horario" id="Horario">
-        <option value="" disabled selected>Horario</option>
-        <option value="m">Mañana</option>
-        <option value="t">Tarde</option>
-      </select>
-
-      <textarea placeholder="Comentarios"></textarea>
-
-      <button>ENVIAR</button>
-    </form>
-  </section>
-    
-
-  <!-- Footer -->
+    <!-- Footer -->
   <footer >
     <div class="columns">
       <div class="column">
@@ -177,6 +140,6 @@
   </footer>
   
 
-  <script src="index.js"></script>
+  <script src="/index.js"></script>
 </body>
 </html>

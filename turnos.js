@@ -9,7 +9,7 @@ function gotowhatsapp() {
     var horario = document.getElementById("horario").value;
     var comentarios = document.getElementById("comentarios").value;
 
-    var url = "https://wa.me/+5493515154737?text=" 
+    var url = "https://wa.me/+522713168219?text=" 
     + "Hola! Quiero solicitar un turno" + "%0a"
     + "%0a" + "Nombre del Paciente: " + nombre + "%0a"
     + "Email: " + email  + "%0a"

@@ -164,12 +164,80 @@ footer .redes-container a {
 
 .nosotros-container .quienes-somos-container p {
   margin-top: 44px;
-  width: 1047px;
+  width: 1096px;
   color: #000000CC;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;
+}
+
+.nosotros-container .mision-container {
+  margin-top: 81px;
+}
+
+.nosotros-container .mision-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4C9DC8;
+}
+
+.nosotros-container .mision-container p {
+  margin-top: 27px;
+  width: 1096px;
+  color: #000000CC;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.nosotros-container .mision-container p span {
+  color: #4C9DC8;
+}
+
+.nosotros-container .equipo-container {
+  margin: 88px 0 275px 0;
+  width: 1096px;
+}
+
+.nosotros-container .equipo-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4C9DC8;
+}
+
+.nosotros-container .equipo-container .equipo {
+  margin-top: 57px;
+}
+
+.nosotros-container .equipo-container .equipo .miembros-equipo-2 {
+  margin-top: 65px;
+}
+
+.nosotros-container .equipo-container .equipo p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000CC;
+  margin-left: 32px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.nosotros-container .equipo-container .equipo p span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000CC;
 }
 
 .productsData {

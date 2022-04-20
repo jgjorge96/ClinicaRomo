@@ -3,6 +3,8 @@
     padding:0;
 }
 
+@import "header";
+@import "footer";
 @import "index";
 @import "nosotros";
 @import "tratamientos";
@@ -10,6 +12,4 @@
 @import "novedades";
 @import "turnos";
 @import "contacto";
-@import "header";
-@import "footer";
 @import "utilities";

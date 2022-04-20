@@ -1,0 +1,41 @@
+.home-container{
+
+    .tratamientos-container{
+
+        margin: 0 177px 73px 177px;
+    
+        .tratamientos{
+            h2{
+                color:#4C9DC8;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 17px;
+                text-align: center;
+                margin-bottom: 37px;
+            }
+    
+            p{
+                color: #000000CC;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                font-size: 17px;
+                width: 328px;
+            }
+        }
+    }
+    
+    .promociones-container{
+        h2{
+            color:#4C9DC8;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 17px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+    
+    .mission-banner-container{
+        margin: 94px 0;
+    }
+}

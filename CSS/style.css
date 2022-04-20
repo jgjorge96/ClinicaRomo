@@ -150,6 +150,28 @@ footer .redes-container a {
   margin: 94px 0;
 }
 
+.nosotros-container {
+  margin-top: 99px;
+}
+
+.nosotros-container .quienes-somos-container h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4C9DC8;
+}
+
+.nosotros-container .quienes-somos-container p {
+  margin-top: 44px;
+  width: 1047px;
+  color: #000000CC;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
 .productsData {
   margin-left: 10.25rem;
   margin-right: 10.25rem;

@@ -1,0 +1,65 @@
+  .contactData {
+    margin-left: 10.25rem;
+    margin-right: 10.25rem;
+    height: 84.4375rem;
+
+    h2 {
+      color: #3D3D3D;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 2rem;
+      line-height: 2.4375rem;
+      text-align: center;
+    }
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #4B2F2F;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+  }
+ 
+  .turnoForm {
+    margin-top: 8.125rem;
+    display: flex;
+    height: 45rem;
+    flex-direction: column;
+    justify-content: space-between;
+
+    input, select {
+      height: 3.5rem;
+      border: 2px solid #6B4F4F;
+      border-radius: 3.5px;
+    }
+
+    option {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.125rem;
+      color: #4C9DC8;
+    }
+
+    textarea {
+      height: 9.5rem;
+      border: 2px solid #6B4F4F;
+      border-radius: 3.5px;
+    }
+
+    button {
+      width: 11.4375rem;
+      height: 2.25rem;
+      background-color: #D9B31F;
+      border-radius: 2px;
+      border-style: none;
+    
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 0.875rem;
+      color: #3D3D3D;
+    }
+  }

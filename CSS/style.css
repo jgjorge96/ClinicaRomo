@@ -3,40 +3,6 @@
   padding: 0;
 }
 
-.home-container .tratamientos-container {
-  margin: 0 177px 73px 177px;
-}
-
-.home-container .tratamientos-container .tratamientos h2 {
-  color: #4C9DC8;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  text-align: center;
-  margin-bottom: 37px;
-}
-
-.home-container .tratamientos-container .tratamientos p {
-  color: #000000CC;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 17px;
-  width: 328px;
-}
-
-.home-container .promociones-container h2 {
-  color: #4C9DC8;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  font-size: 17px;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.home-container .mission-banner-container {
-  margin: 94px 0;
-}
-
 header .images-container {
   height: 223px;
 }
@@ -150,19 +116,46 @@ footer .redes-container a {
   padding: 0 6px;
 }
 
+.home-container .tratamientos-container {
+  margin: 0 177px 73px 177px;
+}
 
-.homebanner-productos {
-  margin-top: 2.75rem;
-  margin-bottom: 6.25rem;
+.home-container .tratamientos-container .tratamientos h2 {
+  color: #4C9DC8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 37px;
 }
-.homebanner-productos img {
-  width: 100%;
+
+.home-container .tratamientos-container .tratamientos p {
+  color: #000000CC;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  width: 328px;
 }
+
+.home-container .promociones-container h2 {
+  color: #4C9DC8;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-container .mission-banner-container {
+  margin: 94px 0;
+}
+
 .productsData {
   margin-left: 10.25rem;
   margin-right: 10.25rem;
   height: 84.4375rem;
 }
+
 .productsData h2 {
   color: #4C9DC8;
   font-family: 'Montserrat';
@@ -172,7 +165,32 @@ footer .redes-container a {
   line-height: 2.4375rem;
   text-align: center;
 }
+
 .productsData img {
+  display: block;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10.375rem;
+}
+
+.newsData {
+  margin-left: 10.25rem;
+  margin-right: 10.25rem;
+  height: 84.4375rem;
+}
+
+.newsData h2 {
+  color: #4C9DC8;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.4375rem;
+  text-align: center;
+}
+
+.newsData img {
   display: block;
   width: auto;
   margin-left: auto;
@@ -185,6 +203,7 @@ footer .redes-container a {
   margin-right: 10.25rem;
   height: 84.4375rem;
 }
+
 .contactData h2 {
   color: #3D3D3D;
   font-family: 'Montserrat';
@@ -194,23 +213,31 @@ footer .redes-container a {
   line-height: 2.4375rem;
   text-align: center;
 }
-.contactForm {
-  margin-top: 8.125rem;
-  display: flex;
-  height: 30.25rem;
-  flex-direction: column;
-  justify-content: space-between;
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
 }
-.contactForm input {
-  height: 3.5rem;
-  border: 2px solid #6B4F4F;
-  border-radius: 3.5px;
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
 }
-.contactForm textarea {
-  height: 9.5rem;
-  border: 2px solid #6B4F4F;
-  border-radius: 3.5px;
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #4B2F2F;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
 }
+
 input::placeholder, textarea::placeholder {
   color: #4B2F2F;
   font-style: normal;
@@ -218,32 +245,28 @@ input::placeholder, textarea::placeholder {
   font-size: 0.875rem;
   line-height: 1.5rem;
 }
-.contactForm button {
-  width: 11.4375rem;
-  height: 2.25rem;
-  background-color: #D9B31F;
-  border-radius: 2px;
-  border-style: none;
-
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 0.875rem;
-  color: #3D3D3D;
-}
 
 .turnoForm {
   margin-top: 8.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 45rem;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.turnoForm input, select {
+
+.turnoForm input, .turnoForm select {
   height: 3.5rem;
   border: 2px solid #6B4F4F;
   border-radius: 3.5px;
 }
+
 .turnoForm option {
   font-style: normal;
   font-weight: 400;
@@ -251,18 +274,19 @@ input::placeholder, textarea::placeholder {
   line-height: 1.125rem;
   color: #4C9DC8;
 }
+
 .turnoForm textarea {
   height: 9.5rem;
   border: 2px solid #6B4F4F;
   border-radius: 3.5px;
 }
+
 .turnoForm button {
   width: 11.4375rem;
   height: 2.25rem;
   background-color: #D9B31F;
   border-radius: 2px;
   border-style: none;
-
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 600;
@@ -270,5 +294,43 @@ input::placeholder, textarea::placeholder {
   color: #3D3D3D;
 }
 
+.contactForm {
+  margin-top: 8.125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 30.25rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
+.contactForm input {
+  height: 3.5rem;
+  border: 2px solid #6B4F4F;
+  border-radius: 3.5px;
+}
+
+.contactForm textarea {
+  height: 9.5rem;
+  border: 2px solid #6B4F4F;
+  border-radius: 3.5px;
+}
+
+.contactForm button {
+  width: 11.4375rem;
+  height: 2.25rem;
+  background-color: #D9B31F;
+  border-radius: 2px;
+  border-style: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #3D3D3D;
+}
 /*# sourceMappingURL=style.css.map */

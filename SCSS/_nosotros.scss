@@ -1,0 +1,92 @@
+.nosotros-container{
+    margin-top: 99px;
+
+    .quienes-somos-container{
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #4C9DC8;
+        }
+    
+        p{
+            margin-top: 44px;
+            width: 1096px;
+            color: #000000CC;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 21px;
+        }
+    }
+
+    .mision-container{
+        margin-top: 81px;
+
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #4C9DC8;
+    
+        }
+    
+        p{
+            margin-top: 27px;
+            width: 1096px;
+            
+            color: #000000CC;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 21px;
+
+            span{
+                color: #4C9DC8;
+            }
+        }
+
+    }
+
+    .equipo-container{
+        margin: 88px 0 275px 0;
+        width: 1096px;
+
+        h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #4C9DC8;
+        }
+
+        .equipo{
+            margin-top: 57px;
+
+            .miembros-equipo-2{
+                margin-top: 65px;
+            }
+
+            p{
+                font-family: 'Montserrat', sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                color:#000000CC;
+                margin-left: 32px;
+                align-self: center;
+    
+                span{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 700;
+                    font-size: 17px;
+                    line-height: 21px;
+                    color:#000000CC
+                }
+            }
+        }
+    }
+}

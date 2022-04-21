@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Turnos</title>
 
     <link rel="stylesheet" href="CSS/style.css">
 
@@ -17,89 +17,124 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="images-container is-flex-direction-row ">
 
-        <!-- RRSS -->
-        <div class="redes-container is-flex is-justify-content-flex-end">
-            <a href=""><img src="Images/iconoface.png" alt="facebook"></a>
-            <a href=""><img src="Images/iconoinstagram.png" alt="instagram"></a>
-            <a href=""><img src="Images/iconowhatsapp.png" alt="whatsapp"></a>
+  <!-- Header -->
+  <header>
+    <div class="images-container is-flex-direction-row ">
+
+    <!-- RRSS -->
+    <div class="redes-container is-flex is-justify-content-flex-end">
+        <a href="https://www.facebook.com/clinica.romo" target="_blank">
+          <img src="Images/iconoface.png" alt="facebook">
+        </a>
+        <a href="https://instagram.com/clinic_romo?utm_medium=copy_link" target="_blank">
+          <img src="Images/iconoinstagram.png" alt="instagram">
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=+522713168219" target="_blank">
+          <img src="Images/iconowhatsapp.png" alt="whatsapp">
+        </a>
+    </div>
+
+    <!-- Isologo -->
+    <div class="logo-container is-flex is-justify-content-center">
+        <img class="isologo" src="Images/isologotipocolor.png" alt="isologo">
+    </div>
+
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu is-align-items-center	is-justify-content-center">
+        <a class="navbar-item menu-item" href="index.html">HOME</a>
+        <a class="navbar-item menu-item" href="nosotros.html">NOSOTROS</a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          
+          <a class="navbar-link is-arrowless menu-item">
+            TRATAMIENTOS
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item drowpdown-item" href="tratamientos.html">
+              Tratamientos Faciales
+            </a>
+            <a class="navbar-item drowpdown-item" href="tratamientos2.html">
+              Tratamientos Corporales
+            </a>
+            <a class="navbar-item drowpdown-item" href="tratamientos3.html">
+              Tratamientos de Belleza
+            </a>
+          </div>
+
         </div>
 
-        <!-- Isologo -->
-        <div class="logo-container is-flex is-justify-content-center">
-            <img class="isologo" src="Images/isologotipocolor.png" alt="isologo">
-        </div>
+        <a class="navbar-item menu-item" href="productos.html">PRODUCTOS</a>
+        <a class="navbar-item menu-item" href="novedades.html">NOVEDADES</a>
+        <a class="navbar-item menu-item" href="turnos.html">TURNOS</a>
+        <a class="navbar-item menu-item" href="contacto.html">CONTACTO</a>      
+      </div>
+    </nav>
 
-        </div>
+    <!-- Homebanner -->
+    <div class="homebanner-container">
+    <img src="Images/bannerTurnos.png" alt="Banner-turnos">
+    </div>
 
-        <!-- Navbar -->
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+  </header>
 
-            <div class="navbar-brand">
-                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                </a>
-            </div>
-        
-            <div id="navbarBasicExample" class="navbar-menu is-align-items-center	is-justify-content-center">
-                <a class="navbar-item" href="index.html">HOME</a>
-                <a class="navbar-item" href="nosotros.html">NOSOTROS</a>
-                <a class="navbar-item" href="tratamientos.html">TRATAMIENTOS</a>
-                <a class="navbar-item" href="productos.html">PRODUCTOS</a>
-                <a class="navbar-item" href="novedades.html">NOVEDADES</a>
-                <a class="navbar-item" href="turnos.html">TURNOS</a>
-                <a class="navbar-item" href="contacto.html">CONTACTO</a>      
-              </div>
-        </nav>
+  <section class="contactData">
+    <h2 style="color: #4C9DC8;">
+        Gestioná aquí tu turno para CONSULTAS PRESENCIALES o <br> bajo la nueva modalidad de TELEMEDICINA. 
+    </h2> <br><br>
 
-        <!-- Homebanner -->
-        <div class="homebanner-productos">
-        <img src="images/bannerTurnos.png" alt="">
-        </div>
+    <h2>Si es tu primera consulta en nuestra <br>
+    institución o necesitás ayuda, comunicate con nuestro centro de contacto al 2713168219 de lunes a viernes de 8:00 a 20:00 h.</h2>
 
-    </header>
+    <form class="turnoForm">
+      <input type="text" id="nombre" placeholder="Nombre" required="">
+      <input type="email" id="email" placeholder="Email" required="">
+      <input type="number" id="telefono" placeholder="Telefono" required="">
 
-    <section class="contactData">
-        <h2 style="color: #4C9DC8;">
-            Gestioná aquí tu turno para CONSULTAS PRESENCIALES o <br> bajo la nueva modalidad de TELEMEDICINA. 
-        </h2> <br><br>
-        <h2>Si es tu primera consulta en nuestra <br>
-            institución o necesitás ayuda, comunicate con nuestro centro de contacto al 2713168219 de lunes a viernes de 8:00 a 20:00 h. </h2>
-        <form class="turnoForm">
-            <input type="text" id="nombre" placeholder="Nombre" required="">
-            <input type="email" id="email" placeholder="Email" required="">
-            <input type="number" id="telefono" placeholder="Telefono" required="">
-            <select name="Tratamiento" id="tratamiento" required="">
-                <option disabled selected>Tratamiento</option>
-                <option>Control de Peso</option>
-                <option>Tratamiento Facial</option>
-                <option>Tratamiento Corporal</option>
-                <option>Tratamiento de Belleza</option>
-            </select>
-            <select name="Profesional" id="profesional" required="">
-                <option disabled selected>Profesional</option>
-                <option>Jesus Ismael Rocha Morales</option>
-                <option>Dr. Martin Morfin</option>
-                <option>Lic. Mercedes Jacome Morales</option>
-            </select>
-            <input placeholder="Fecha" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="fecha" required=""/>
-            <select name="Horario" id="horario" required="">
-                <option disabled selected>Horario</option>
-                <option>Mañana</option>
-                <option>Tarde</option>
-            </select>
-            <textarea placeholder="Comentarios" id="comentarios"></textarea>
-            <button value="Submit" onclick="gotowhatsapp()">ENVIAR</button>
-        </form>
-        <script src="/turnos.js"></script>
-    </section>
+      <select name="Tratamiento" id="tratamiento" required="">
+        <option disabled selected>Tratamiento</option>
+        <option>Control de Peso</option>
+        <option>Tratamiento Facial</option>
+        <option>Tratamiento Corporal</option>
+        <option>Tratamiento de Belleza</option>
+      </select>
 
-    <!-- Footer -->
+      <select name="Profesional" id="profesional" required="">
+        <option disabled selected>Profesional</option>
+        <option>Jesus Ismael Rocha Morales</option>
+        <option>Dr. Martin Morfin</option>
+        <option>Lic. Mercedes Jacome Morales</option>
+      </select>
+
+      <input placeholder="Fecha" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="fecha" required=""/>
+      
+      <select name="Horario" id="horario" required="">
+        <option disabled selected>Horario</option>
+        <option>Mañana</option>
+        <option>Tarde</option>
+      </select>
+
+      <textarea placeholder="Comentarios" id="comentarios"></textarea>
+      <button value="Submit" onclick="gotowhatsapp()">ENVIAR</button>
+
+    </form>
+
+  </section>    
+
+  <!-- Footer -->
   <footer >
     <div class="columns">
       <div class="column">
@@ -130,16 +165,20 @@
         
         <div class="redes-container is-flex is-justify-content-flex-end">
           <p>Seguinos en nuestras redes</p>
-          <a href=""><img src="Images/iconoface.png" alt="facebook"></a>
-          <a href=""><img src="Images/iconoinstagram.png" alt="instagram"></a>
-          <a href=""><img src="Images/iconowhatsapp.png" alt="whatsapp"></a>
+          <a href="https://www.facebook.com/clinica.romo" target="_blank">
+            <img src="Images/iconoface.png" alt="facebook">
+          </a>
+          <a href="https://instagram.com/clinic_romo?utm_medium=copy_link" target="_blank">
+            <img src="Images/iconoinstagram.png" alt="instagram">
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=+522713168219" target="_blank">
+            <img src="Images/iconowhatsapp.png" alt="whatsapp">
+          </a>
         </div>
       </div>
     </div>
-    
   </footer>
   
-
-  <script src="/index.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>

@@ -29,7 +29,7 @@ header{
         
             background-color: #4C9DC8 ;
     
-            a{
+            .menu-item{
                 text-align: center;
                 color:#FFFFFF !important;
                 font-family: 'Montserrat', sans-serif ;
@@ -45,6 +45,26 @@ header{
                     height: 22px;
                 }
             }
+
+            .navbar-link{
+                background-color: #4C9DC8 !important;
+                height: 58px;
+            }
+            
+            .navbar-dropdown{
+               
+                a{
+                    text-align: center;
+                    color: #3D3D3D;
+                    font-family: 'Montserrat', sans-serif ;
+                    font-weight: 500;
+                    font-size: 14px;
+                   
+                    &:hover{
+                        background-color: white !important;
+                    }
+                }
+            } 
         }
     }
 

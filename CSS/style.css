@@ -33,7 +33,7 @@ header nav .navbar-menu {
   background-color: #4C9DC8;
 }
 
-header nav .navbar-menu a {
+header nav .navbar-menu .menu-item {
   text-align: center;
   color: #FFFFFF !important;
   font-family: 'Montserrat', sans-serif;
@@ -41,15 +41,32 @@ header nav .navbar-menu a {
   font-size: 18px;
 }
 
-header nav .navbar-menu a:hover {
+header nav .navbar-menu .menu-item:hover {
   background-color: #4C9DC8 !important;
   color: #3D3D3D !important;
 }
 
 @media screen and (min-width: 1024px) {
-  header nav .navbar-menu a {
+  header nav .navbar-menu .menu-item {
     height: 22px;
   }
+}
+
+header nav .navbar-menu .navbar-link {
+  background-color: #4C9DC8 !important;
+  height: 58px;
+}
+
+header nav .navbar-menu .navbar-dropdown a {
+  text-align: center;
+  color: #3D3D3D;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+header nav .navbar-menu .navbar-dropdown a:hover {
+  background-color: white !important;
 }
 
 header .homebanner-container {
@@ -240,6 +257,51 @@ footer .redes-container a {
   color: #000000CC;
 }
 
+.tratamientos-container {
+  margin: 99px 170px 251px 170px;
+}
+
+.tratamientos-container .tratamientos h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4C9DC8;
+}
+
+.tratamientos-container .tratamientos p {
+  width: 1089px;
+  margin-top: 21px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.tratamientos-container .tratamientos p span {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.tratamientos-container button {
+  margin-top: 50px;
+  width: 223px;
+  height: 50px;
+  background-color: #D9B31F;
+  border-radius: 2px;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  letter-spacing: 0.16px;
+  color: #3D3D3D;
+  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
+}
+
 .productsData {
   margin-left: 10.25rem;
   margin-right: 10.25rem;
@@ -398,7 +460,10 @@ footer .redes-container a {
   font-style: normal;
   font-weight: 600;
   font-size: 0.875rem;
+  letter-spacing: 0.16px;
   color: #3D3D3D;
+  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
 }
 
 .contactData {
@@ -492,6 +557,9 @@ footer .redes-container a {
   font-style: normal;
   font-weight: 600;
   font-size: 0.875rem;
+  letter-spacing: 0.16px;
   color: #3D3D3D;
+  -webkit-filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.14)) drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12)) drop-shadow(0px 1px 5px rgba(0, 0, 0, 0.2));
 }
 /*# sourceMappingURL=style.css.map */

@@ -18,7 +18,6 @@
 </head>
 
 <body>
-  
   <!-- Header -->
   <header>
     <div class="images-container is-flex-direction-row ">
@@ -99,12 +98,15 @@
     </h2>
 
     <form class="contactForm">
-        <input type="text" id="Nombre" placeholder="Nombre*">
-        <input type="email" id="email" placeholder="Email*">
-        <input type="number" id="Telefono" placeholder="Telefono*">
-        <textarea placeholder="Comentarios"></textarea>
-        <button>ENVIAR</button>
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="number" id="telefono" placeholder="Telefono" required>
+
+        <textarea placeholder="Comentarios" id="comentarios" required></textarea>
+
+        <button value="Submit" onclick="contactwhatsapp()">ENVIAR</button>
     </form>
+    <script src="/Script/contacto.js"></script>
   </section>
 
   <!-- Footer -->
@@ -150,7 +152,6 @@
       </div>
     </div>
   </footer>
-
   <script src="index.js"></script>
 </body>
 </html>
